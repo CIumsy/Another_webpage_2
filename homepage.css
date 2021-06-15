@@ -1,0 +1,112 @@
+body {
+	margin: 0;
+	padding: 4%;
+	background-image: linear-gradient(to top, #f0683d, #fbedea);
+
+}
+
+.page {
+	display: grid;
+	grid-template-columns: 40% 60%;
+	background-color: #f5f4f9;
+	border-radius: 4vh;
+	padding: 4%;
+}
+
+.body_1 header img {
+	border-radius: 14%;
+}
+
+.body_1 header span {
+	font-family: "Impact";
+    font-size: 2.7vh;
+    color: #f76031;
+	position: relative;
+	bottom: 1.4vh;
+	padding: 0.4vw;
+}
+
+.text_1 {
+	margin-top: 25vh;
+	margin-left: 4vw;
+	font-size: 8vh;
+	font-family: "Heebo";
+	font-weight: 500;
+}
+
+.text_2 {
+	margin-top: 4vh;
+	margin-left: 4vw;
+	font-weight: 500;
+	font-family: "Heebo";
+	font-size: 2.7vh;
+	color: grey;
+}
+
+.button_1 button {
+	font-family: "Heebo";
+	font-weight: 600;
+	color: #f5f4f9;
+	margin-left: 4vw;
+	margin-top: 5vh;
+	padding: 2.5% 5.5% 2.5% 5.5%;
+	border: none;
+	border-radius: 2vw;
+	background-color: #f76031;
+}
+
+.button_2 button {
+	margin-top: 9vh;
+	font-size: 5vh;
+	font-weight: bold;
+	color: grey;
+	background-color: #f5f4f9;
+	border: solid #CAD3C8 0.4vh;
+	border-radius: 100vw;
+}
+
+.body_2 header {
+	margin-left: 10vw;
+	display: grid;
+	grid-template-columns: 8% 8% 15% 13% 19%;
+	grid-template-rows: 6.4vh;
+	grid-column-gap: 3.5vw;
+}
+
+.body_2 header button {
+	padding: 0;
+	font-family: "Heebo";
+	font-weight: bold;
+	border: none;
+	background-color: #f5f4f9;
+}
+
+#signup {
+	background-color: #f76031;
+	color: #f5f4f9;
+	font-weight: 450;
+	border-radius: 100vw;
+}
+
+.body_2 div img {
+	margin-top: 14vh;
+	margin-bottom: 9vh;
+}
+
+.body_2 footer {
+	color: grey;
+	margin-left: 27vw;
+	display: grid;
+	grid-template-columns: 24% 1% 17% 1% 20%;
+	grid-template-rows: 4vh;
+	grid-column-gap: 2vw;
+}
+
+.body_2 footer button {
+	border: none;
+	background-color: #f5f4f9;
+	color: grey;
+	font-family: "Heebo";
+	font-weight: bold;
+	font-size: 2.3vh;
+}
